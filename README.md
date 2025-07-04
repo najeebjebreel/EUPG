@@ -8,7 +8,7 @@ This is the official repository containing the code needed to replicate the resu
 
 ## Usage
 
-The repository includes a Jupyter notebook for each benchmark. These notebooks can be used to reproduce the experiments reported in the paper for their respective benchmarks. Note that for CIFAR10, you need to generate the DP-protected data using the codes in the folder dp_data.
+The repository includes a Jupyter notebook for each benchmark. These notebooks can be used to reproduce the experiments reported in the paper for their respective benchmarks. Note that for CIFAR10, you need to generate the DP-protected data using the codes in the folder [dp_data](https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing).
 
 ## Datasets
 
