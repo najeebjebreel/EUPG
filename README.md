@@ -20,7 +20,7 @@ The four datasets used are publicly available( the three tabular datasets are lo
 
 Pre-processed raw data can also be downloaded from (https://drive.google.com/drive/folders/1bJJWbq34kaZo_Bj7tr-ho6Fo2z-YeEel?usp=sharing).
 K-anonymous data will be generated during training.
-To generate DP-protected data with differnt epsilon values, you need to download the folder dp_data from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing), and then run the scripts inside it.
+To generate DP-protected data with differnt epsilon values, you need to download the folder dp_data from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing) to the main folder, and then run the scripts inside it.
 
 ## Dependencies
 
