@@ -19,19 +19,10 @@ The four datasets used are publicly available( the three tabular datasets are lo
 - [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will automatically be downloaded from Torchvision datasets.
 
 Pre-processed raw data can also be downloaded from (https://drive.google.com/drive/folders/1bJJWbq34kaZo_Bj7tr-ho6Fo2z-YeEel?usp=sharing).
-DP-generated data with differnt epsilon values can be downloaded from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing).
+K-anonymous data will be generated during training.
+To generate FP-protected data with differnt epsilon values, you need to download the folder dp_data from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing), and then run the scripts inside it.
 
 ## Dependencies
-
-- **Python**: 3.8.16
-- **TensorFlow**: 2.13.0
-- **Torch**: 1.12.0
-- **Torchvision**: 0.13.0
-- **NumPy**: 1.24.3
-- **Pandas**: 1.5.3
-- **SciPy**: 1.10.1
-- **Scikit-learn**: 1.3.0
-- **XGBoost**: 2.0.2
 
 The required Anaconda environment can be installed using the `environment.yml` file.
 
