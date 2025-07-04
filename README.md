@@ -18,7 +18,7 @@ The four datasets used are publicly available( the three tabular datasets are lo
 - [Credit Information](https://www.kaggle.com/c/GiveMeSomeCredit).
 - [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will automatically be downloaded from Torchvision datasets.
 
-Pre-processed raw data can be downloaded from (https://drive.google.com/drive/folders/1bJJWbq34kaZo_Bj7tr-ho6Fo2z-YeEel?usp=sharing).
+Pre-processed raw data can also be downloaded from (https://drive.google.com/drive/folders/1bJJWbq34kaZo_Bj7tr-ho6Fo2z-YeEel?usp=sharing).
 DP-generated data with differnt epsilon values can be downloaded from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing).
 
 ## Dependencies
