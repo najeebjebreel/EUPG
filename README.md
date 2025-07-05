@@ -8,7 +8,7 @@ This is the official repository containing the code needed to replicate the resu
 
 ## Usage
 
-The repository includes Python scripts for running comprehensive privacy-preserving machine learning experiments. These scripts can be used to reproduce the experiments reported in the paper across different benchmarks and privacy techniques.
+The repository includes Python scripts that can be used to reproduce the experiments reported in the paper across different benchmarks and privacy techniques.
 
 ### Running Experiments
 
