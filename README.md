@@ -108,7 +108,7 @@ conda activate eupg
 
 ## Experimental Framework
 
-The codebase implements a three-phase experimental framework:
+Baside he baseline experiments, the codebase implements a three-phase experimental framework:
 
 1. **Phase 1**: Training on privacy-preserved data (k-anonymous or DP data)
 2. **Phase 2**: Fine-tuning on original training data
