@@ -1,6 +1,6 @@
 import torch
 import copy
-
+from tqdm import tqdm
 
 def train_model(model, train_loader, val_loader, criterion, optimizer, max_epochs, device = 'cuda', 
                 verbose_epoch = 10, patience = None):
@@ -13,10 +13,10 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, max_epoch
     best_val_loss = 100000
     consecutive_no_improvement = 0
     best_model = None
-
-    for epoch in range(max_epochs):
+    print(f'Training model on {device} for {max_epochs} epochs...')
+    for epoch in tqdm(range(max_epochs), desc='Training Epochs'):
         running_loss = 0.0
-        for batch in train_loader:
+        for batch in tqdm(train_loader, desc='Training Batches', leave=False):
             features, labels = batch
             features, labels = features.to(device), labels.to(device)
             # Forward pass
