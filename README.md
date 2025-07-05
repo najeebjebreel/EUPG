@@ -20,11 +20,6 @@ To run baseline experiments (training on full data and retraining on retain set)
 python baseline_experiments.py --dataset adult --model mlp --forget_ratios 0.05 0.1 --n_repeat 3 --max_epochs 100
 ```
 
-To run the SISA experiment for CIFAR-10:
-
-```bash
-python sisa_cifar10.py
-```
 
 #### Privacy Experiments
 
