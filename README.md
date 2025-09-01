@@ -91,11 +91,11 @@ The four datasets used are publicly available (the three tabular datasets are lo
 
 ### Data Preparation
 
-**Pre-processed raw data** can be downloaded from (https://drive.google.com/drive/folders/1bJJWbq34kaZo_Bj7tr-ho6Fo2z-YeEel?usp=sharing).
+**Pre-processed raw data** can be downloaded from (https://www.dropbox.com/scl/fi/gqce4cwgawnh8dkn6axgy/data.zip?rlkey=2mmhmnnd8u1fxhkxs0f6bkbxz&st=ri99mqjt&dl=0).
 
 **K-anonymous data** will be generated automatically during training using the built-in MDAV algorithm.
 
-**DP-protected data**: For CIFAR-10 differential privacy experiments, download the folder `dp_data` from (https://drive.google.com/drive/folders/1KC-SKd1GHoqXlrdyTTlxLDB5nUbszWMr?usp=sharing) to the main directory, then run the scripts inside it to generate DP-protected data with different epsilon values.
+**DP-protected data**: For CIFAR-10 differential privacy experiments, download the folder `dp_data` from (https://www.dropbox.com/scl/fi/j991v1nn6u08heqnyw578/dp_data.zip?rlkey=9c5wup7yohoioq7mvelft1i7q&st=wvnb7wdr&dl=0) to the main directory, then run the scripts inside it to generate DP-protected data with different epsilon values.
 
 ## Dependencies
 
@@ -157,4 +157,5 @@ Each phase evaluates:
 
 Partial support for this work has been received from the Government of Catalonia (ICREA Acad\`emia Prizes to J. Domingo-Ferrer and to D. S\'anchez, and grant 2021SGR-00115), MCIN/AEI/ 10.13039/501100011033 and ``ERDF A way of making Europe'' under grant PID2021-123637NB-I00 ``CURLING'', and  the EU's NextGenerationEU/PRTR via INCIBE (project ``HERMES'' and INCIBE-URV cybersecurity chair).
 -->
+
 
